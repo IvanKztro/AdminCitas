@@ -1,0 +1,41 @@
+
+body{
+  background-color: #D2D2D2;
+}
+
+.nav{
+  background-color: #848484;
+}
+
+
+/*CONTNEDOR DEL FORMULARIO*/
+.content_form
+{
+  
+  background: linear-gradient(to left,rgba(0, 0, 0, 0.9), black);
+  border-top-left-radius: 30px;
+  opacity: 0.8;
+  color: white;
+}
+.content_citas{
+  border-bottom-right-radius: 30px;
+  background-color: rgb(253, 253, 253);
+  /*background: linear-gradient(to bottom,rgb(253, 253, 253),rgba(0, 0, 0, 0.9));*/
+}
+
+
+.error{
+    opacity: 0.9;
+    color: white;
+}
+.cita_div{
+  background-color: rgba(108, 209, 243, 0.596);
+  color: black;
+  opacity: 1.0;
+  border-radius: 16px;
+}
+
+.notCitas{
+  background-color: rgba(225,64,49,0.9);
+
+}
