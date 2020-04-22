@@ -11,7 +11,6 @@ body{
 /*CONTNEDOR DEL FORMULARIO*/
 .content_form
 {
-  
   background: linear-gradient(to left,rgba(0, 0, 0, 0.9), black);
   border-top-left-radius: 30px;
   opacity: 0.8;
@@ -20,6 +19,8 @@ body{
 .content_citas{
   border-bottom-right-radius: 30px;
   background-color: rgb(253, 253, 253);
+  height: 551px;
+  overflow: auto;
   /*background: linear-gradient(to bottom,rgb(253, 253, 253),rgba(0, 0, 0, 0.9));*/
 }
 
@@ -39,3 +40,13 @@ body{
   background-color: rgba(225,64,49,0.9);
 
 }
+
+
+
+
+/*
+.button button{
+  position: absolute;
+  right: 0;
+  top:0;
+} */

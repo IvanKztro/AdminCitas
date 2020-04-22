@@ -70,7 +70,7 @@ const Form = ({arrayCitas, setArrayCitas}) => {
         <div className="col-lg-4 content_form">
             <h3 className="text-center">Formulario</h3>
             { error 
-                ? <p className="error text-center bg-danger">TODOS LOS CAMPOS SON NECESARIOS</p>
+                ? <p className=" text-center alert alert-danger ">TODOS LOS CAMPOS SON NECESARIOS</p>
                 : null
             }
             <form
